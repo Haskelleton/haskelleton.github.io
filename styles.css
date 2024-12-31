@@ -8,6 +8,10 @@ pre span {
   color: springgreen;
 }
 
+body {
+  background-color: #13171f;
+}
+
 ul#links {
   font-size: 130%;
   padding: 0;
@@ -17,4 +21,24 @@ ul#links {
     a { color: springgreen; }
     a:hover { color: white; }
   }
+}
+
+.container {
+  max-width: 950px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p { font-family: "JetBrains Mono", monospace; }
+
+pre {
+  background-color: #1a1f28;
+}
+
+canvas {
+  display: block;
+  margin: 30px auto;
+  box-shadow: 5px 5px rgba(0,0,0,0.4);
 }
